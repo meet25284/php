@@ -20,7 +20,7 @@ function testVariables() {
 // Global variable
 $globalVar = 20;
 
-echo "Constant PI: " . PI . "\n"; // Accessing constant
+echo "Constant PI: " . PI . "\n"; // Accessing constant 
 
 // Accessing global variable outside function
 echo "Global Variable outside function: $globalVar\n";
