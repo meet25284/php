@@ -1,6 +1,6 @@
 <?php
 // Get the month number from user input
-$monthNumber = (int)readline("Enter a month number (1-12): ");
+$monthNumber = readline("Enter a month number (1-12): ");
 
 // Use switch to display the corresponding month
 switch ($monthNumber) {
