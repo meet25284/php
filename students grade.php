@@ -1,10 +1,10 @@
 <?php
-// Marks for 5 subjects
-$subject1 = 85;
-$subject2 = 78;
-$subject3 = 90;
-$subject4 = 65;
-$subject5 = 88;
+// Taking input from the user for 5 subjects
+$subject1 = 55;
+$subject2 = 21;
+$subject3 = 44;
+$subject4 = 45;
+$subject5 = 24;
 
 // Calculate the total and average marks
 $totalMarks = $subject1 + $subject2 + $subject3 + $subject4 + $subject5;
@@ -26,7 +26,7 @@ if ($averageMarks >= 90) {
 }
 
 // Output the total marks, average marks, and grade
-echo "Total Marks: $totalMarks\n";
-echo "Average Marks: $averageMarks\n";
-echo "Grade: $grade\n";
+echo "Total Marks: $totalMarks<br>";
+echo "Average Marks: $averageMarks<br>";
+echo "Grade: $grade<br>";
 ?>
