@@ -1,10 +1,10 @@
 <?php
 // Taking input from the user for 5 subjects
-$subject1 = (int)readline('enter marks of first subject: ');
-$subject2 = (int)readline('enter marks of second subject: ');
-$subject3 = (int)readline('enter marks of third subject: ');
-$subject4 = (int)readline('enter marks of fourth subject: ');
-$subject5 = (int)readline('enter marks of fifth subject: ');
+$subject1 = 78;
+$subject2 = 99;
+$subject3 =100;
+$subject4 = 99;
+$subject5 = 89;
 
 // Calculate the total and average marks
 $totalMarks = $subject1 + $subject2 + $subject3 + $subject4 + $subject5;
